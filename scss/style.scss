@@ -1,0 +1,99 @@
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+$bg-color: #564256;
+$text-color: #E8E8E8;
+$secondary-color: #BFBFBF;
+$tertiary-color: #96939B;
+$accent-color: #FC814A;
+$font-overpass: overpass;
+$font-pattaya: pattaya;
+
+//wekjfhwaeifbaoiwhf;oweqhfa;osrijfaslifuhas;ifhaslihfaslkhjfalwiuhflwfhu
+
+body {
+    background-color: $bg-color;
+    color:$text-color;
+
+    header {
+        text-align: center;
+        font-family: $font-pattaya;
+        border: 2px solid $accent-color;
+        border-radius:5px;
+        
+        h1 {
+            max-width: 100%;
+        }
+    }
+
+    #title {
+        font-weight:bold;
+    }
+
+    #date {
+        font-style: italic;
+    }
+
+    #sum {
+        font-weight:lighter;
+    }
+
+}
+
+section {
+    font-family:$font-overpass;
+}
+
+button {
+    @include button;
+    color: $text-color;
+    background-color: #847584;
+    // border-radius: 5px;
+}
+
+button:focus {
+    background-color: $accent-color;
+}
+
+button:hover {
+    background-color: #B85E36;
+}
+
+.rated {
+        background-color: $accent-color;
+}
+
+
+#btnR {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#btnL {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ul {
+    // @include grid-row();
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+        // @include grid-column(2);
+        border: 2px solid $tertiary-color;
+        background-color:$tertiary-color;
+        border-radius: 5px;
+        padding:1%;
+        width:20%;
+        margin: 2%;
+    }
+
+    img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HW-1-26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "foundation-sites": "^6.3.0",
+    "gulp": "^3.9.1",
+    "gulp-browser": "^3.0.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-strip-comments": "^2.4.3"
+  },
+  "devDependencies": {
+    "gulp-strip-comments": "^2.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

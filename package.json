@@ -11,6 +11,7 @@
     "gulp-strip-comments": "^2.4.3"
   },
   "devDependencies": {
+    "gulp-jsvalidate": "^3.0.0",
     "gulp-strip-comments": "^2.4.3"
   },
   "scripts": {
